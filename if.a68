@@ -1,0 +1,9 @@
+BEGIN
+
+	INT age=16;
+	IF age>=12
+	THEN 
+		print("Vous avez l'âge autorisé") 
+	FI
+
+END

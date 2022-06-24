@@ -1,0 +1,10 @@
+BEGIN
+	INT i:=-1;
+
+	CASE i IN
+		print(("i est égal à 1", new line)),
+		print(("i est égal à 2", new line)),
+		print(("i est égal à 3", new line))
+		OUT print(("i est égal à 0, i est négatif ou i est supérieur à 3", new line))
+	ESAC
+END

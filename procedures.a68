@@ -1,0 +1,21 @@
+BEGIN
+
+	PROC printtext = VOID:
+		print(("hello world", new line));
+		
+	PROC printhelloname = (STRING name) VOID: (
+		print(("hello ", name, new line))
+	);
+	
+	PROC sum = (INT a, b) INT:
+	BEGIN
+		a + b
+	END;
+		
+	printtext;
+	printhelloname("maxime");
+
+	INT i = sum(4,3);
+	print((i, new line))
+
+END

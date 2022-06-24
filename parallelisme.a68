@@ -1,0 +1,15 @@
+BEGIN
+  PROC sum = (INT num1, num2) INT: num1 + num2;
+  PROC sub = (INT num1, num2) INT: num1 - num2;
+  PROC mul = (INT num1, num2) INT: num1 * num2;
+
+  print(("Début du parallélisme", new line));
+
+  PAR (
+    print(("résultat multiplication ", whole(mul(1, 2), 0), new line)),
+    print(("résultat addition ", whole(sum(1, 2), 0), new line)),
+    print(("résultat soustraction ", whole(sub(1, 2), 0), new line))
+  );
+  
+  print(("Fin du parallélisme", new line))
+END

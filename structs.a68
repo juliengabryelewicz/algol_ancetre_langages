@@ -1,0 +1,17 @@
+BEGIN
+
+MODE VILLE = STRUCT (STRING name, INT department, REAL lat, REAL lon);
+
+VILLE arques;
+
+name OF arques := "arques";
+department OF arques := 62;
+lat OF arques := 50.7333;
+lon OF arques := 2.2833;
+
+print((name OF arques, new line));
+print((department OF arques, new line));
+print((lat OF arques, new line));
+print((lon OF arques, new line))
+
+END

@@ -1,0 +1,15 @@
+BEGIN
+	INT age:=106;
+	IF age<=0
+	THEN 
+		print(("Veuillez remplir un âge autorisé", new line)) 	
+	ELIF age>0 AND age<12
+	THEN 
+		print(("Vous avez moins de 12 ans", new line)) 
+	ELIF age>=12 AND age<=100 
+	THEN
+		print(("Vous avez entre 12 et 100 ans", new line)) 
+	ELSE
+		print(("Vous avez plus de 100 ans", new line))
+	FI
+END

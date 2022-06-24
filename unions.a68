@@ -1,0 +1,10 @@
+BEGIN
+
+	MODE ROMAN = UNION (INT, REAL, STRING);
+	
+	ROMAN r = "MM";
+	
+	print((r, new line))
+
+
+END

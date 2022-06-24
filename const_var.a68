@@ -1,0 +1,15 @@
+BEGIN
+
+	INT i:=10;
+	
+	print((i, new line));
+	
+	i:=20;
+
+	print((i, new line));
+	
+	INT j=30;
+	
+	print((j, new line));
+	
+END

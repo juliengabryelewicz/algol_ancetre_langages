@@ -1,0 +1,14 @@
+BEGIN
+
+OP TO_STRING = (INT n) STRING : whole(n, 0);
+OP TO_STRING = (BOOL b) STRING : IF b THEN "You write TRUE" ELSE "You write FALSE" FI;
+
+INT a := 10;
+BOOL b := TRUE;
+
+print((TO_STRING a, new line));
+print((TO_STRING b, new line))
+
+
+
+END

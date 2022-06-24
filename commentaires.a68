@@ -1,0 +1,16 @@
+BEGIN
+
+#
+Ceci est un commentaire
+#
+
+CO
+Ceci est un autre commentaire
+CO
+
+COMMENT
+Ceci est également un autre commentaire
+COMMENT
+
+
+END

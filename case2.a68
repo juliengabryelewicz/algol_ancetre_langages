@@ -1,0 +1,10 @@
+BEGIN
+	MODE ROMAN = UNION (INT,REAL,STRING);
+	ROMAN roman = "MM";
+
+	CASE roman IN
+		(INT i): print(("int: ", i, new line)),
+		(REAL r): print(("real: ", r, new line)),
+		(STRING s): print(("string: ", s, new line))
+	ESAC
+END

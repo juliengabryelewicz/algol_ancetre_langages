@@ -1,0 +1,30 @@
+
+
+
+BEGIN
+
+	PROC nest = VOID:
+	(
+	  INT i := 0;
+
+	  PROC add ten = VOID:
+	  (
+	    i := i + 10;
+	    print((i, new line))
+	  );
+
+	  add ten
+	);
+
+	INT j = 3;
+	print((j, new line));
+	BEGIN
+		nest
+	END
+	
+END;
+
+BEGIN
+	INT j = 4;
+	print((j, new line))
+END
